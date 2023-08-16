@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(120, 167, 120);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#panel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#top{
+    padding: 0 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(27, 82, 27);
+    width: 100%;
+    height: 100px;
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    /* background-color: red; */
+}
+
+.elem > h4{
+    font-weight: 600;
+    font-size: larger;
+}
+
+.box{
+    color: rgb(22, 55, 22);
+    font-weight: 700;
+    font-size: 25px;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+#bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;  
+    padding: 10px;
+    width: 100%;
+    height: calc(100% - 100px);
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    color: white;
+    background-color: rgba(0, 128, 0,0.7);
+    border-radius: 50%;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#game_end{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#play_again{
+    padding: 4px;
+    background-color: rgb(29, 165, 29);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+#play_again:hover{
+ background-color: green;   
+}
