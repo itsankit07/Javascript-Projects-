@@ -6,7 +6,6 @@ Welcome to the Expense Tracker App! This application helps users keep track of t
 
 **Features**
 - **Add Transactions:** Record both income and expense transactions with their respective amounts.
-- **Update Transactions:** Can Update the values also.
 - **Transaction History:** View a list of all recorded transactions, along with their details.
 - **Balance Calculation:** Calculate and display the current balance based on the recorded transactions.
 - **Local Storage:** Store transaction data locally, so it persists even after the browser is closed.
