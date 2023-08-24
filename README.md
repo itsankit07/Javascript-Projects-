@@ -1,5 +1,5 @@
-**"PureWeb Projects Repository: Unleash the Power of HTML, CSS, and Vanilla JavaScript 🚀
-**
+**"PureWeb Projects Repository: Unleash the Power of HTML, CSS, and Vanilla JavaScript 🚀**
+
 Welcome to the PureWeb Projects repository, a haven for web developers who believe in the art of creating captivating user experiences through the harmonious blend of HTML, CSS, and the raw prowess of Vanilla JavaScript.
 
 🎨 Dive into Creativity:
